@@ -1,0 +1,15 @@
+query Query {
+        users {
+    _id
+    name
+  }
+}
+
+
+query {
+  getUserByEmail(email: "impulso@domain.net") {
+    _id
+    name
+    
+  }
+}

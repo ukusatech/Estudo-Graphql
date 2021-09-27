@@ -1,0 +1,6 @@
+mutation{
+    createUser(name: "impulso", email: "impulso@domain.net") {
+      _id
+      name
+    }
+  }
