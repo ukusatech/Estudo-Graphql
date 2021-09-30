@@ -1,0 +1,18 @@
+query{
+    user(id: "6156479d8646364391f841f6"){
+        firstName
+        lastName
+    }
+}
+
+
+
+
+
+query {
+    users{
+        _id
+        firstName
+        active
+    }
+}
